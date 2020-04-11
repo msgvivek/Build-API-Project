@@ -55,8 +55,19 @@ Go to docs.docker.com to install Docker for your PC
 2. Make a Dockerfile in the same directory
 
 3. To run with the dockerfile:
-    a. docker build -t tag:tag .
-    b. docker run -ti tag:tag
+```bash
+docker build -t tag:tag .
+
+docker run -ti tag:tag
+```
 
 4. To run with docker-compose.yaml
-    a. docker-compose up -d
+```bash
+docker-compose up -d
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
