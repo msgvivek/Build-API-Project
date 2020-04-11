@@ -35,4 +35,5 @@ user$ python3 -m flask run
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip3 install sqlite3
+pip3 install sqlite
+```
