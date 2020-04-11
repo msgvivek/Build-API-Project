@@ -40,8 +40,23 @@ pip3 install sqlite
 ## Usage
 
 ```python
-
 # sqlite3 is an inbuilt package with python3
 import sqlite3
-
 ```
+
+## Installation - Docker
+
+Go to docs.docker.com to install Docker for your PC
+
+## Usage
+
+1. Make a directory to store all scripts and files
+
+2. Make a Dockerfile in the same directory
+
+3. To run with the dockerfile:
+a. docker build -t tag:tag .
+b. docker run -ti tag:tag
+
+4. To run with docker-compose.yaml
+a. docker-compose up -d
