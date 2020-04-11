@@ -27,7 +27,6 @@ app = Flask(__name__)
 
 # to run the API from command line
 user$ python3 -m flask run
-
 ```
 
 ## Installation - SQLite
@@ -36,4 +35,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 pip3 install sqlite
+```
+
+## Usage
+
+```python
+
+# sqlite3 is an inbuilt package with python3
+import sqlite3
+
 ```
