@@ -1,0 +1,11 @@
+version: '3'
+services:
+  myapi:
+    build:
+      context: /Users/gauthamvivekmadhusudhan/buoy
+      dockerfile: Dockerfile
+    image: python:buster
+    expose:
+      - '5000'
+    ports:
+      - '172.17.0.1:5000:127.0.0.1:5000'
