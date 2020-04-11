@@ -55,8 +55,8 @@ Go to docs.docker.com to install Docker for your PC
 2. Make a Dockerfile in the same directory
 
 3. To run with the dockerfile:
-a. docker build -t tag:tag .
-b. docker run -ti tag:tag
+    a. docker build -t tag:tag .
+    b. docker run -ti tag:tag
 
 4. To run with docker-compose.yaml
-a. docker-compose up -d
+    a. docker-compose up -d
